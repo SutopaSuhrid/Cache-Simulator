@@ -67,13 +67,6 @@ hits:4 misses:5 evictions:3
 
 Your job is to write a cache simulator so that it takes the same command line arguments and produces the identical output as the reference simulator. Notice that this assignment starts from a "blank page." You'll need to write it from scratch.
 
-Programming Rules
-
-Include your name and email address in header comments in your code.
-
-Your simulator must compile/interpret/run without warnings in order to receive credit.
-
-Your simulator must work correctly for arbitrary s, E, and b.
 
 For this assignment, we are interested only in data cache performance, so your simulator should ignore all instruction cache accesses (lines starting with "I"). Recall that valgrind always puts "I" in the first column (with no preceding space), and "M", "L", and "S" in the second column (with a preceding space). This may help you parse the trace.
 
